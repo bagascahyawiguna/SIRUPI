@@ -46,7 +46,6 @@ Jalankan inferensi:
     ├─ dataset/         # Gambar + label (format YOLO)
     ├─ data.yaml        # Konfigurasi dataset untuk YOLOv8
     ├─ SIRUPI_YOLOV8N.ipynb # Colab Notebook Setup
-    ├─ runs/            # Hasil pelatihan & bobot (best.pt)
     └─ model/           # Model hasil ekspor (.tflite / .onnx)
 
 ## 📈 Hasil (Data Uji)
