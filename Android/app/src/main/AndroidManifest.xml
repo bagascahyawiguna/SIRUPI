@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.faizal.deteksiuang">
+
+    <!-- Izinkan kamera -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <!-- Izin akses -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+
+
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28"
+        tools:ignore="ScopedStorage" />
+<!--    &lt;!&ndash; Opsional, kalau mau tetap support HP lama (Android 12 ke bawah) &ndash;&gt;-->
+<!--    <uses-permission-->
+<!--        android:name="android.permission.READ_EXTERNAL_STORAGE"-->
+<!--        android:maxSdkVersion="32" />-->
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/Sirupi"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Deteksiuang"
+        tools:targetApi="31">
+
+        <!-- Splash screen -->
+        <activity
+            android:name=".view.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Main activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- ✅ TAMBAHKAN INI: Halaman daftar uang -->
+        <activity
+            android:name=".view.MoneyListActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".view.HistoryQuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.QuizMenuActivity"
+            android:exported="false" />/>
+
+        <!-- ✅ TAMBAHKAN INI: Halaman kuis uang -->
+        <activity
+            android:name=".view.QuizActivity"
+            android:exported="false" />
+        <activity android:name=".view.StudentDataActivity" />
+        <activity android:name=".view.MoneyDetailActivity" />
+
+        <!-- FileProvider untuk kamera -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+
+
+
+
+    </application>
+</manifest>

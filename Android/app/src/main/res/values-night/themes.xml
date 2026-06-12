@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema Utama (Mode Terang/Light) -->
+    <style name="Base.Theme.Deteksiuang" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- WARNA KUNCI -->
+        <item name="colorPrimary">#007AFF</item> <!-- Biru Sistem Vibrant -->
+        <item name="colorPrimaryVariant">#0059C8</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+
+        <!-- WARNA SEKUNDER (Aksen) -->
+        <item name="colorSecondary">#34C759</item>
+        <item name="colorSecondaryVariant">#34C759</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+
+        <!-- WARNA LATAR BELAKANG -->
+        <item name="android:colorBackground">@android:color/white</item>
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="colorOnBackground">@android:color/black</item>
+        <item name="colorOnSurface">#1F1F1F</item>
+
+        <!-- STATUS BAR & NAV BAR -->
+        <item name="android:statusBarColor">#007AFF</item>
+        <item name="android:navigationBarColor">#007AFF</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">false</item>
+
+        <!-- EFECT HALUS -->
+        <item name="colorControlHighlight">#20007AFF</item>
+    </style>
+
+    <style name="Theme.Deteksiuang" parent="Base.Theme.Deteksiuang" />
+</resources>

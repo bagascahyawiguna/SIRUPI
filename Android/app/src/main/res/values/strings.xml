@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Deteksi Uang</string>
+
+    <!-- Judul Menu Navigasi -->
+    <string name="title_home">Home</string>
+    <string name="title_detection">Deteksi</string>
+    <string name="title_quiz">Kuis</string>
+
+    <!-- Halaman Home -->
+    <string name="home_title">Katalog Uang Indonesia</string>
+    <string name="cd_money_image_list">Gambar uang %s</string> <!-- %s untuk deskripsi dinamis -->
+
+    <!-- Halaman Deteksi -->
+    <string name="detection_placeholder">Arahkan kamera ke uang</string>
+    <string name="cd_camera_preview">Pratinjau Kamera</string>
+    <string name="detection_result_prefix">Terdeteksi:</string>
+
+    <!-- Halaman Kuis -->
+    <string name="quiz_title">Kuis Uang</string>
+    <string name="quiz_question_placeholder">Berapa jumlah uang di bawah ini?</string>
+    <string name="cd_first_money_image">Gambar uang pertama untuk kuis</string>
+    <string name="cd_second_money_image">Gambar uang kedua untuk kuis</string>
+    <string name="quiz_feedback_correct">Benar!</string>
+    <string name="quiz_feedback_wrong">Salah! Coba lagi.</string>
+    <string name="home">Home\n</string>
+    <string name="camera">Scan\n</string>
+    <string name="profile">Profile\n</string>
+    <string name="splash">splash</string>
+    <string name="about_us_image">profile</string>
+
+        <!-- Profil SLBN -->
+        <string name="school_name">SLBN TARUNA MANDIRI</string>
+        <string name="tagline">Mandiri berinovasi dan berdikari</string>
+
+        <string name="description">SLB Negeri Taruna Mandiri Kuningan berdiri pada tahun 2007 dan resmi beroperasi pada 2008. Sejak awal, sekolah ini berkomitmen memberikan layanan pendidikan yang layak, inklusif, dan bermartabat bagi anak-anak berkebutuhan khusus di Kabupaten Kuningan. Sebagai lembaga pendidikan luar biasa, SLB Negeri Taruna Mandiri terus menciptakan lingkungan belajar yang ramah dan mendukung pengembangan potensi setiap peserta didik secara optimal.</string>
+
+        <string name="address">Jl. Caracas – Mandirancan Kuningan Jawa Barat 45556</string>
+        <string name="phone">(0232) 615005</string>
+        <string name="email">surat.slbntarunamandiri@gmail.com</string>
+        <string name="instagram">@slbntm</string>
+        <string name="tiktok">@slbntm</string>
+
+        <string name="logo_description">Logo SLBN Taruna Mandiri</string>
+    <string name="Sirupi">SiRuPi</string>
+
+
+</resources>

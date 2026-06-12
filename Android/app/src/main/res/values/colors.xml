@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#A3B8F1</color> <!-- Soft blue color -->
+    <color name="purple_500">#5C6BC0</color> <!-- Soft blue primary -->
+    <color name="purple_700">#3F51B5</color> <!-- Darker blue for accents -->
+    <color name="teal_200">#80D6E1</color> <!-- Soft teal for secondary elements -->
+    <color name="teal_700">#00796B</color> <!-- Darker teal for more contrast -->
+    <color name="black">#333333</color> <!-- Soft black for text -->
+    <color name="white">#FFFFFF</color> <!-- White for backgrounds -->
+    <color name="orange">#3B6F96</color> <!-- Change to a blue shade -->
+
+    <color name="yellow">#4A90E2</color> <!-- Light yellow for small highlights -->
+
+    <color name="text_primary">#212121</color> <!-- Primary text color -->
+    <color name="text_secondary">#757575</color> <!-- Secondary text color -->
+
+    <color name="primary">#4A90E2</color> <!-- Main blue for primary elements -->
+    <color name="second">#F0F8FF</color> <!-- Very light blue for backgrounds -->
+    <color name="favorite">#3498DB</color> <!-- Bright blue for favorites -->
+
+    <color name="grey">#B0B0B0</color> <!-- Soft grey for secondary elements -->
+    <color name="light_grey">#E8E8E8</color> <!-- Very light grey for backgrounds -->
+    <color name="light_gray">#DCDCDC</color> <!-- Light grey for lighter accents -->
+
+    <color name="green">#00B16A</color> <!-- Soft green -->
+    <color name="blue">#A3C1E2</color> <!-- Soft blue -->
+    <color name="red">#FD5B6A</color> <!-- Soft red for errors or alerts -->
+    <color name="blue_500">#2196F3</color>
+    <color name="blue_700">#1976D2</color>
+    <color name="blue_900">#0D47A1</color>
+    <!-- Warna Tema Biru SLBN Taruna Mandiri -->
+    <color name="theme_blue">#3B6F96</color>
+    <color name="theme_blue_dark">#2C5573</color> <!-- Lebih gelap untuk variant -->
+    <color name="theme_blue_accent">#4A90E2</color> <!-- Biru muda untuk aksen -->
+
+
+
+
+</resources>
