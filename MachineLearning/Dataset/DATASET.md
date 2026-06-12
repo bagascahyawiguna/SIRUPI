@@ -44,5 +44,3 @@ Label menggunakan **format YOLO** (file `.txt` per gambar, berisi `class x_cente
 3. Sesuaikan path pada `data.yaml`, lalu mulai pelatihan:
 
        yolo detect train data=data.yaml model=yolov8n.pt epochs=50 imgsz=640
-
-> 💡 Pastikan folder Google Drive disetel **“Anyone with the link”** agar dataset dapat diakses publik.
