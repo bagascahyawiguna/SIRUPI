@@ -27,7 +27,7 @@ Dikembangkan selama Kerja Praktik di SLB Negeri Taruna Mandiri Kuningan.
 - 📱 Inferensi di perangkat (berfungsi offline)
 
 ## 🛠️ Teknologi
-- **Mobile:** Kotlin, Android, CameraX, TensorFlow Lite
+- **Mobile:** Kotlin, Android, Jetpack Compose, CameraX, TensorFlow Lite
 - **Machine Learning:** Python, Ultralytics YOLOv8n, PyTorch, OpenCV
 
 ## 📦 Cara Memulai
