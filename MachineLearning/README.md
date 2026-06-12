@@ -46,7 +46,6 @@ Run inference:
     ├─ dataset/         # Images + labels (YOLO format)
     ├─ data.yaml        # Dataset config for YOLOv8
     ├─ SIRUPI_YOLOV8N.ipynb # Colab Notebook Setup
-    ├─ runs/            # Training runs & weights (best.pt)
     └─ model/           # Exported model (.tflite / .onnx)
 
 ## 📈 Results (Test Set)
