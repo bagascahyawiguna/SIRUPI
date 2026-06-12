@@ -27,7 +27,7 @@ Developed during an internship (Kerja Praktik) at SLB Negeri Taruna Mandiri Kuni
 - 📱 On-device inference (works offline)
 
 ## 🛠️ Tech Stack
-- **Mobile:** Kotlin, Android, CameraX, TensorFlow Lite
+- **Mobile:** Kotlin, Android, Jetpack Compose, CameraX, TensorFlow Lite
 - **Machine Learning:** Python, Ultralytics YOLOv8n, PyTorch, OpenCV
 
 ## 📦 Getting Started
